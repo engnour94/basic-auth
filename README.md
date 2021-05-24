@@ -9,7 +9,7 @@
 
 - [Repo link](https://github.com/engnour94/basic-auth)
 
-- [main Deployed heroku]()
+- [main Deployed heroku](https://authentication-app-by-nour.herokuapp.com/)
  
 ### Setup
 
@@ -33,25 +33,33 @@
 
    
 
- 
-- **Endpoint for food:** 
-  - /api/v1/food
-  - /api/v1/food/:id
+### Setup
 
-- **Endpoint for clothes:** 
-   - /api/v1/clothes
-  - /api/v1/clothes/:id
+1. Clone the repo
 
-- Endpoint: **anything else ..**
-  - Returns an error 404
-  - Returns an Object
+2. npm init -y.
 
-  {
-    status: 404,
-    message: 'page not found something went wrong',
-  }
-    
-    ---
+3. npm install express base-64 bcrypt cors dotenv eslint jest mongoose supertest @code-felows/supergoose 
+
+4. Create .env file with PORT=3000.
+
+
+### Run the app
+
+npm start
+
+### End points
+
+***/signup***: POST Method
+
+
+You can Sign-up by sending post request using postman.
+Example of the data when you sign up :
+
+
+***/signin***: POST Method
+
+You can signin by sending post request using postman.
 
 
 #### Tests
